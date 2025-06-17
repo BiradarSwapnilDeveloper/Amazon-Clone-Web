@@ -36,7 +36,6 @@
 
 **View Project Live:**  
 👉 (https://biradarswapnil.netlify.app/)
-*(Replace with your actual link)*
 
 ---
 
@@ -61,8 +60,6 @@ Amazon-Clone-Web/
 ## 💬 Feedback
 
 Feel free to **star** ⭐ the repo and **suggest improvements** through pull requests or issues.  
+
+
 ---
-
-## 📌 Tags
-
-**#HTML** **#CSS** **#AmazonClone** **#Frontend** **#ResponsiveDesign**
