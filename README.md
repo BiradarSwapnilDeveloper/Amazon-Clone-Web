@@ -25,7 +25,7 @@
 
 1. **Clone the repo:**
    ```bash
-   git clone https://github.com/your-username/Amazon-Clone-Web.git
+   git clone (https://github.com/BiradarSwapnilDeveloper/Amazon-Clone-Web/tree/main)
    ```
 
 2. **Open the `index.html` file in your browser**
@@ -35,7 +35,7 @@
 ## 🔗 Live Preview
 
 **View Project Live:**  
-👉 [https://your-live-link.netlify.app](https://your-live-link.netlify.app)  
+👉 (https://biradarswapnil.netlify.app/)
 *(Replace with your actual link)*
 
 ---
