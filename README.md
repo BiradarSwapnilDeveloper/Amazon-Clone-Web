@@ -1,57 +1,68 @@
-🛒 Amazon Clone Web
-A responsive Amazon clone homepage built using only HTML and CSS, replicating the design and layout of the official Amazon India website.
+# 🛒 Amazon Clone Web
 
+**A responsive Amazon homepage clone built using HTML and CSS.**
 
-🔍 Features
-✅ Fully responsive design for mobile, tablet, and desktop
+---
 
-🧱 Clean layout with header, navigation bar, product sections, and footer
+## ✅ Features
 
-🔍 Search bar similar to Amazon
+- **Responsive Design** – Works on mobile, tablet, and desktop  
+- **Amazon-like Layout** – Header, navbar, product sections, and footer  
+- **Search Bar** – Styled similar to Amazon  
+- **Hover Effects** – Product cards with hover animation  
+- **Pure HTML & CSS** – No frameworks or JavaScript  
 
-🛍️ Product cards with hover effects
+---
 
-🌐 Simple & lightweight — no frameworks used
+## 🧰 Technologies Used
 
-⚙️ Technologies Used
-🧾 HTML5
+- **HTML**  
+- **CSS**
 
-🎨 CSS3
+---
 
-📸 Screenshots
-Desktop View	Mobile View
+## 🚀 How to Run
 
-🚀 How to Run
-Download or clone this repository
+1. **Clone the repo:**
+   ```bash
+   git clone https://github.com/your-username/Amazon-Clone-Web.git
+   ```
 
-bash
-Copy
-Edit
-git clone https://github.com/your-username/Amazon-Clone-Web.git
-Open index.html in your browser
+2. **Open the `index.html` file in your browser**
 
-🌐 Live Preview
-🔗 Click here to view the live project
-(Replace with your actual Netlify, GitHub Pages, or Vercel link)
+---
 
-📁 Folder Structure
-markdown
-Copy
-Edit
+## 🔗 Live Preview
+
+**View Project Live:**  
+👉 [https://your-live-link.netlify.app](https://your-live-link.netlify.app)  
+*(Replace with your actual link)*
+
+---
+
+## 🗂 Folder Structure
+
+```
 Amazon-Clone-Web/
-│
 ├── index.html
-├── style.css
-└── assets/
-    └── images/
-📌 What I Learned
-How to structure complex e-commerce layouts
+└── style.css
+```
 
-Improved CSS Flexbox/Grid skills
+---
 
-Responsive design techniques without media query libraries
+## 🧠 What I Learned
 
-📣 Feedback or Suggestions?
-Feel free to open issues or pull requests. I’m always open to feedback and collaboration! 😄
+- **Website layout designing**  
+- **Flexbox & responsive design**  
+- **CSS structuring and styling best practices**
 
-⭐ Give it a star if you liked this project!
+---
+
+## 💬 Feedback
+
+Feel free to **star** ⭐ the repo and **suggest improvements** through pull requests or issues.  
+---
+
+## 📌 Tags
+
+**#HTML** **#CSS** **#AmazonClone** **#Frontend** **#ResponsiveDesign**
