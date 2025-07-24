@@ -124,8 +124,8 @@
     
     font-size: 14px; 
     margin-left: 10px;
+    
 }
-
 .sign:hover {
      background-color:rgb(77, 76, 76, 0.3);
     transition: 0.2s ease;
@@ -136,6 +136,14 @@
     font-size: 13px;
     font-weight: bold;  
 }
+
+
+.sign a {
+
+    color:#fff;
+    text-decoration: none;
+}
+
 
 .return {
 
