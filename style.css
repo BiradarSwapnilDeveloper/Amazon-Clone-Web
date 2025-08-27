@@ -590,8 +590,8 @@ a {
   body {
     
 
-    background: url(mobile.jpg);
-    background: url(mobile1.jpg)
+    background: url(back-img.jpg);
+    background: url(back-img1.jpg);
     font-family: 'Segoe UI', sans-serif;
     display: flex;
     justify-content: center;
@@ -716,6 +716,7 @@ a {
     to { opacity: 1; transform: translateY(0); }
   }
 }
+
 
 
 
