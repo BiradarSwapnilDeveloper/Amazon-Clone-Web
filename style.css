@@ -615,7 +615,7 @@ a {
 
         display: block;
         
-        
+    }
     
     
     header {
@@ -736,6 +736,7 @@ a {
     to { opacity: 1; transform: translateY(0); }
   }
 }
+
 
 
 
