@@ -583,8 +583,19 @@ a {
 
 
 
-/* ===========================
-   Media Query for Mobile
+.mobileview {
+
+
+    display: none;
+
+
+
+    
+
+}
+    
+/* ==========================
+  Media Query for Mobile
    =========================== */
 @media only screen and (max-width: 1269px) {
   body {
@@ -716,6 +727,7 @@ a {
     to { opacity: 1; transform: translateY(0); }
   }
 }
+
 
 
 
