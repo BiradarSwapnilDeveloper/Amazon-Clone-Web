@@ -428,7 +428,6 @@ body{
 }
 
 
-
 .box1-box h3 {
     align-items: center;
     margin-left: 18px;
@@ -653,7 +652,7 @@ a {
         text-align:center;
         justify-content: center;
         margin: 20px;
-        margin-top: 260px;
+        margin-top: 200px;
 
         
         
@@ -737,6 +736,7 @@ a {
     to { opacity: 1; transform: translateY(0); }
   }
 }
+
 
 
 
