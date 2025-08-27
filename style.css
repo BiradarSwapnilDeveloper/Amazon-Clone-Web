@@ -1,7 +1,14 @@
 * {
     margin: 0;
     font-family: Arial;  
+    background-color:
 }
+
+
+body{
+
+}
+
 
 .navbar{
 
@@ -576,6 +583,138 @@ a {
 
 
 
+/* ===========================
+   Media Query for Mobile
+   =========================== */
+@media only screen and (max-width: 1269px) {
+  body {
+    
 
+    background: url(mobile.jpg);
+    background: url(mobile1.jpg);
+    font-family: 'Segoe UI', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vw;
+    margin: 0;}
+
+    header {
+
+        display: none;
+
+    }
+    .hero-section{
+
+        display: none;
+
+    }
+
+    .shop-sec{
+
+        display: none;
+
+    }footer{
+
+        display: none;
+
+    }
+
+
+    
+    .mobileview h2 {
+
+         background: linear-gradient(90deg, #ff6a00, #ee0979) ; /* Blue gradient */
+  -webkit-background-clip: text;   /* Safari, Chrome */
+  -webkit-text-fill-color: transparent;
+  background-clip: text;           /* Standard */
+  color: transparent; 
+        font-size: 30px;
+        text-align:center;
+        justify-content: center;
+        margin: 20px;
+        margin-top: 400px;
+
+        
+        
+    }
+
+
+    p{
+
+        text-align: center;
+        margin: 10px;
+          background: linear-gradient(90deg, #ff6a00, #ee0979, #764ba2, #00c6ff);
+; /* Blue gradient */
+  -webkit-background-clip: text;   /* Safari, Chrome */
+  -webkit-text-fill-color: transparent;
+  background-clip: text;           /* Standard */
+  color: transparent;  
+  font-size: 18px
+
+    }
+
+
+    .credits p  {
+    
+        background: linear-gradient(90deg, #4facfe, #904e95);
+; /* best for dark bg */
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  color: transparent;
+  margin: 90px;
+  letter-spacing: 0.5px;
+
+  margin-top: 30px;
+  text-align: center;
+  justify-content: center;
+
+    }
+
+    button {
+
+        margin: 10px;
+        font-size: 29px;
+        padding: 10px;
+        border-radius: 20px;
+        width: 130px;
+        height: 50px;
+        border: none;
+        font-size: 17px;
+        text-align: center;
+        justify-content: center;
+        margin-left: 130px;
+        
+
+        
+
+    }
+
+    .btn2 button {
+
+        align-item:center;
+        justify-content: center;
+        text-align: center;
+
+    }
+
+    button a{
+
+
+        text-align: center;
+        justify-content: center;
+        text-decoration:none;
+        font-size: 15px;
+
+    }
+
+
+
+  @keyframes fadeIn {
+    from { opacity: 0; transform: translateY(20px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
+}
 
 
