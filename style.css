@@ -98,8 +98,16 @@ body{
     color: black;
     height: 42px;
     justify-content: center;
-    font-size: 17px
+    font-size: 2px
+
 }
+
+.search-icon a {
+    font-size: 17px;
+    color: #121111ff;
+    
+}
+
 .search-border {
 
 
@@ -582,6 +590,12 @@ a {
 }
 
 
+.mobileview {
+
+    display: none;
+
+}
+
 
 /* ===========================
    Media Query for Mobile
@@ -623,6 +637,14 @@ a {
 
     }
 
+
+
+
+    .mobileview {
+
+    display: block;
+
+}
 
     
     .mobileview h2 {
@@ -746,3 +768,4 @@ a {
     }
 
 }
+
