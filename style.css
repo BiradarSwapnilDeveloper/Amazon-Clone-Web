@@ -232,6 +232,13 @@ body{
 
 
 
+.panel a {
+
+    color: #fff;
+    font-weight: 100;
+    text-decoration: none;
+    
+}
 
 .panel .panel-ops1 {
 
@@ -768,4 +775,3 @@ a {
     }
 
 }
-
