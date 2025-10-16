@@ -394,6 +394,7 @@ header {
 .box1-box {
     height: 400px;
     border: 2px solid black;
+    
     width: 23%;
     background-color: white;
     border: none;
@@ -613,14 +614,13 @@ a {
 
 .mobileview {
 
-    display: none;
-
+    display: none
 }
-
 
 /* ===========================
    Media Query for Mobile
    =========================== */
+ /*  
 @media only screen and (max-width: 1269px) {
   body {
     
@@ -670,19 +670,16 @@ a {
     
     .mobileview h2 {
 
-         background: linear-gradient(90deg, #ff6a00, #ee0979) ; /* Blue gradient */
-  -webkit-background-clip: text;   /* Safari, Chrome */
-  -webkit-text-fill-color: transparent;
-  background-clip: text;           /* Standard */
-  color: transparent; 
+        background: linear-gradient(90deg, #ff6a00, #ee0979) ; 
+        -webkit-background-clip: text; 
+        perspective-origin: transparent;
+        background-clip: text;    
+        color: transparent; 
         font-size: 30px;
         text-align:center;
         justify-content: center;
         margin: 20px;
         margin-top: 100px;
-
-        
-        
     }
 
     .mobileview img{
@@ -696,31 +693,26 @@ a {
 
         text-align: center;
         margin: 10px;
-          background: linear-gradient(90deg, #ff6a00, #ee0979, #764ba2, #00c6ff);
-; /* Blue gradient */
-  -webkit-background-clip: text;   /* Safari, Chrome */
-  -webkit-text-fill-color: transparent;
-  background-clip: text;           /* Standard */
-  color: transparent;  
-  font-size: 18px
+        background: linear-gradient(90deg, #ff6a00, #ee0979, #764ba2, #00c6ff);
+        -webkit-background-clip: text;   /* Safari, Chrome */
+        /*-webkit-text-fill-color: transparent;
+        background-clip: text;         
+        color: transparent;  
+        font-size: 18px}
 
-    }
-
-
+/*
     .credits p  {
     
         background: linear-gradient(90deg, #4facfe, #904e95);
-; /* best for dark bg */
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
-  color: transparent;
-  margin: 90px;
-  letter-spacing: 0.5px;
-
-  margin-top: 30px;
-  text-align: center;
-  justify-content: center;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+        color: transparent;
+        margin: 90px;
+        letter-spacing: 0.5px;
+        margin-top: 30px;
+        text-align: center;
+        justify-content: center;
 
     }
 
@@ -744,7 +736,7 @@ a {
 
     .btn2 button {
 
-        align-item:center;
+        align-items:center;
         justify-content: center;
         text-align: center;
 
@@ -789,4 +781,406 @@ a {
 
     }
 
+} */
+
+@media (max-width: 1270px){
+    .nav-address{
+
+        display: noe;
+
+    }
+
+    .add-icon{
+
+        display : non;
+
+    }
+
+    .sign{
+
+        display:non;
+
+    }
+    .nav-search{
+
+
+        width: 600px
+
+    }
+
+
+    @media (max-width: 1071px){
+
+        .nav-search {
+
+            width: 560px
+
+        }
+
+    }
+
+    @media (max-width: 1071px){
+
+        .nav-search{
+
+            width:450px;
+
+        }
+
+    }
+
+
+    @media (max-width: 1168px){
+
+        .shop-sec .box3-box {
+
+            display:  none
+
+        }
+
+    }
+
+
+    @media (max-width: 1167px){
+
+        .box5-box , .box6-box , .box7-box {
+
+            display: none;
+
+        }
+
+    }
+
+
+    @media (max-width: 1393.75px){
+
+        .cicle-img .img7 {
+
+            display: none
+        }
+
+    }
+
+    @media (max-width: 1115px) and (min-width: 1094px){
+
+        .img6{
+
+            display: none
+
+        }
+
+    }
+
+    @media (min-width: 875px) and (max-width: 1094px){
+
+        .img5, .img6{
+
+            display: none;
+
+
+        }
+
+    }
+
+    @media(max-width: 1094px){
+
+        .hero-img2 img{
+
+            width: 100px;
+            display: none;
+
+        }
+
+    }
+
+
+    @media(max-width: 1094px){
+
+        .shop-sec .box1-box, .box2-box, .box4-box, .box8-box{
+
+            display: none;
+
+
+        }
+
+    }
+
+    @media(max-width: 983px){
+
+        .mob-img img{
+
+            justify-content: space-between;
+            margin-left: 30px;
+
+    }
+
+    .mob-img .last{
+
+        display: none;
+
+    }
+
+    }
+
+
+    .mob-img{
+
+        width: 
+
+    }
+
+    @media(max-width: 908px){
+
+        .mob-img{
+            display: none;
+
+            
+        }
+
+       }
+
+
+
+       @media(max-width: 874px){
+
+
+        .circle-img{
+
+            margin:3px
+
+        }
+        .circle-img  .img1{
+
+            margin-right: 170px
+        }
+        .circle-img  .img2{
+
+            margin-left: -190px;
+
+        }
+
+        .circle-img  .img3{
+
+            margin-left: -20px;
+
+        }
+
+        .circle-img  .img4{
+
+            margin-left: -20px;
+
+
+        }
+
+        .circle-img  .img6{
+
+            display: none;
+
+        } 
+        .circle-img  .img5{
+
+            display: none;
+
+        }
+
+        
+
+        
+
+    }
+
 }
+
+.hero-img2 img {
+
+    width: 1350px;
+    height: 400px
+
+}
+
+.mob-img{
+
+    width: 1330px;
+    height: 300px;
+    background-color:rgb(255,255,255);
+    margin-top: 20px;
+
+}
+
+
+.mob-img img{
+
+    width: 190px
+}
+
+
+.mob-img .demo{
+
+    display: none;
+
+}
+
+/* FOR MOBILE VIEW */
+
+@media only screen and (max-width: 550px) {
+  body {
+    
+    margin:0;
+    padding:0;
+    height: 100%;
+
+    background: url(back-img1.jpg);
+    background: url(back-img2.jpg);
+    font-family: 'Segoe UI', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;}
+
+    header {
+
+        display: none;
+
+    }
+    .hero-section{
+
+        display: none;
+
+    }
+
+    .shop-sec{
+
+        display: none;
+
+    }footer{
+
+        display: none;
+
+    }
+
+
+
+
+    .mobileview {
+
+    display: block;
+
+}
+
+    
+    .mobileview h2 {
+
+        background: linear-gradient(90deg, #ff6a00, #ee0979) ; 
+        -webkit-background-clip: text; 
+        perspective-origin: transparent;
+        background-clip: text;    
+        color: transparent; 
+        font-size: 30px;
+        text-align:center;
+        justify-content: center;
+        margin: 20px;
+        margin-top: 100px;
+    }
+
+    .mobileview img{
+
+        z-index: 1;
+
+
+    }
+
+    p{
+
+        text-align: center;
+        margin: 10px;
+        background: linear-gradient(90deg, #ff6a00, #ee0979, #764ba2, #00c6ff);
+        -webkit-background-clip: text;   /* Safari, Chrome */
+        -webkit-text-fill-color: transparent;
+        background-clip: text;         
+        color: transparent;  
+        font-size: 18px}
+
+ .credits p  {
+    
+        background: linear-gradient(90deg, #4facfe, #904e95);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+        color: transparent;
+        margin: 90px;
+        letter-spacing: 0.5px;
+        margin-top: 30px;
+        text-align: center;
+        justify-content: center;
+
+    }
+
+    button {
+
+        margin: 10px;
+        font-size: 29px;
+        padding: 10px;
+        border-radius: 20px;
+        width: 130px;
+        height: 50px;
+        border: none;
+        font-size: 17px;
+        text-align: center;
+        justify-content: center;
+        margin-left:  140px;
+        display: flex;
+        flex-direction: column;
+        margin-top: 10px;
+}
+
+    .btn2 button {
+
+        align-items:center;
+        justify-content: center;
+        text-align: center;
+
+    }
+
+    button a{
+
+
+        text-align: center;
+        justify-content: center;
+        text-decoration:none;
+        font-size: 15px;
+        color: blue;
+
+    }
+
+
+
+  @keyframes fadeIn {
+    from { opacity: 0; transform: translateY(20px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
+} 
+
+@media (max-width: 544px) and (min-width: 445px) {
+
+    button{
+
+        position: relative;
+        left:  60px;
+
+    }
+
+} 
+
+@media (max-width: 1269px) and (min-width: 545px) {
+
+    button{
+
+        position: relative;
+        left: 70px;
+
+    }
+
+} 
+
+
